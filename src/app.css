@@ -2,7 +2,7 @@
 
 
 :root {
-    --DarkCyan: hsl(158, 36%, 37%);
+    --DarkCyan: hwb(158 24% 50%);
     --Cream: hsl(30, 38%, 92%);
     --VeryDarkBlue: hsl(212, 21%, 14%);
     --DarkGrayishBlue: hsl(228, 12%, 48%);
@@ -121,7 +121,7 @@ body {
 }
 
 .add-to-cart:hover {
-    filter: brightness(0.6);
+   background-color:  rgb(30, 104, 77);
     color: white;
 
 }
@@ -179,6 +179,7 @@ body {
         transform: scale(0.8);
         max-width: 800px;
         margin: auto;
+        margin-top:7% ;
     }
 
     .header {
